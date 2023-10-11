@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>About Us - FreshFlavors Foods</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffcc; /* Light Yellow Background */
+        }
+        section {
+            background-color: #ffffcc; /* Light Yellow Background for the text section */
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h1 {
+            color: #333;
+            font-size: 28px;
+        }
+        h2 {
+            color: #333;
+            font-size: 24px;
+        }
+        h3 {
+            color: #333;
+            font-size: 20px;
+        }
+        p {
+            color: #555;
+            font-size: 18px;
+            line-height: 1.4;
+        }
+        .timeline {
+            display: flex;
+            flex-direction: column;
+        }
+        .event {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .date {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- About Us Content Section -->
+    <section>
+        <h1>About Us</h1>
+
+        <!-- Company History Section -->
+        <h2>Company History</h2>
+        <p>FreshFlavors Foods, a culinary venture that took root in 2012, blossomed from a shared passion for delicious and nutritious food. Our story began with a group of dedicated food enthusiasts who believed in the power of wholesome, mouthwatering meals to elevate the human experience.</p>
+
+        <p>We embarked on a mission to provide fresh and flavorful food options that not only delight the taste buds but also promote a healthy and vibrant lifestyle.</p>
+
+        <!-- Our Mission Section -->
+        <h2>Our Mission</h2>
+        <p>Our journey has been guided by a commitment to sourcing only the finest and freshest ingredients. We tirelessly maintain high-quality standards throughout our entire production process, from farm to table. Our dedicated team of chefs and nutritionists collaborates to create a diverse range of food products that cater to a wide spectrum of tastes and dietary preferences.</p>
+
+        <p>From farm-fresh salads to gourmet soups, our offerings are a symphony of flavors and nutrients. We are steadfast in our goal to make wholesome and tasty food accessible to everyone. Whether you're a seasoned epicurean or someone looking to make more health-conscious choices, FreshFlavors Foods has something for you. Our journey continues, fueled by our unwavering commitment to bringing freshness and flavors to your dining table.</p>
+
+        <!-- Timeline Section -->
+        <h2>Our Journey - A Timeline</h2>
+        <div class="timeline">
+            <div class="event">
+                <h3>2012</h3>
+                <p>Founded FreshFlavors Foods with a passion for nutritious and delicious food.</p>
+            </div>
+            <div class="event">
+                <h3>2014-2016</h3>
+                <p>Expanded into different food categories to reach a larger demographic of food preferences.</p>
+            </div>
+            <div class="event">
+                <h3>2018</h3>
+                <p>Launched our online store, making our products accessible to a wider audience.</p>
+            </div>
+            <div class="event">
+                <h3>2020</h3>
+                <p>Continued innovation with new, exciting products to meet changing consumer preferences.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section with the "Last Updated" date -->
+    <footer>
+        <p>Last Updated: <span id="last-updated"></span></p>
+    </footer>
+
+    <!-- JavaScript to display the "Last Updated" date -->
+    <script>
+        const lastUpdated = new Date();
+        document.getElementById("last-updated").textContent = lastUpdated.toDateString();
+    </script>
+</body>
