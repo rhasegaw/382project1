@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>FreshFlavors Foods</title>
+</head>
+<body>
+    <header>
+        <img src="freshflavors-logo.jpg" alt="FreshFlavors Foods Logo" id="logo">
+        <h1>FreshFlavors Foods</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Products/Services</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to FreshFlavors Foods</h2>
+        <p>Delight your taste buds with fresh and flavorful food!</p>
+        <img src="fresh-produce.jpg" alt="Fresh Fruits and Vegetables">
+    </section>
+
+    <footer>
+        <p>&copy; 2023 FreshFlavors Foods. All rights reserved.</p>
+        <p>Last Updated: <span id="lastUpdated"></span></p>
+        <script>
+            document.getElementById('lastUpdated').textContent = new Date().toLocaleDateString();
+        </script>
+    </footer>
+    <script src="lastUpdated.js"></script>
+</body>
+</html>
