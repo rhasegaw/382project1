@@ -2,6 +2,8 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
@@ -12,7 +14,7 @@ header {
 }
 
 #logo {
-    width: 80px;
+    width: 150px;
     height: auto;
 }
 
@@ -37,6 +39,7 @@ a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
@@ -48,6 +51,19 @@ section {
     padding: 20px;
 }
 
+h2 {
+    color: #4CAF50;
+}
+
+p {
+    font-size: 16px;
+}
+
+.last-updated {
+    font-style: italic;
+    color: #777;
+}
+
 footer {
     background-color: #4CAF50;
     color: white;
@@ -57,3 +73,10 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.highlight {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+
