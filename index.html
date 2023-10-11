@@ -53,4 +53,71 @@
     <script src="lastUpdated.js"></script>
 </body>
 </html>
+This inline style section in the head sets the background color of the body, changes the font family, and adjusts the font sizes for the body, heading, and navigation items. You can further customize these styles based on your preferences.
+
+
+
+
+User
+can you make letters more larger, to make it easier to read
+ChatGPT
+Certainly! To make the text even larger for better readability, you can increase the font-size values. Here's the modified HTML code with larger font sizes:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #ffffcc;
+            font-family: 'Calibri', sans-serif;
+            font-size: 18px; /* Increased the base font size for better readability */
+        }
+
+        header h1 {
+            font-size: 2em; /* Increased the heading size */
+        }
+
+        nav ul li {
+            font-size: 1.4em; /* Increased the navigation item size */
+        }
+
+        /* Additional styles as needed */
+    </style>
+    <link rel="stylesheet" href="styles.css">
+    <title>FreshFlavors Foods</title>
+</head>
+<body>
+    <header>
+        <img src="https://github.com/rhasegaw/382project1/blob/main/FreshFlavors%20Foods-logos.jpeg?raw=true" alt="FreshFlavors Foods Logo" id="logo" style="width: 200px; height: auto;">
+        <h1>FreshFlavors Foods</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a> - describing company history and mission.</li>
+            <li><a href="products.html">Products/Services</a> - showcasing offerings.</li>
+            <li><a href="team.html">Team</a> - profiling company leaders and staff.</li>
+            <li><a href="testimonials.html">Testimonials</a> - with customer reviews.</li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <p class="last-updated"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 FreshFlavors Foods. All rights reserved.</p>
+        <p>Last Updated: <span id="lastUpdated"></span></p>
+        <script>
+            document.getElementById('lastUpdated').textContent = new Date().toLocaleDateString();
+        </script>
+    </footer>
+    <script src="lastUpdated.js"></script>
+</body>
+</html>
 
