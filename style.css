@@ -1,82 +1,57 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #ffffcc;
+    font-family: 'Calibri', sans-serif;
+    font-size: 16px; /* Adjust the size according to your preference */
+    margin: 0; /* Remove default body margin */
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #333; /* Dark background color for the header */
+    color: #fff; /* White text color */
+    padding: 10px;
     text-align: center;
-    padding: 1em;
 }
 
-#logo {
-    width: 150px;
-    height: auto;
+header img {
+    display: block;
+    margin: 0 auto; /* Center the logo */
+}
+
+header h1 {
+    font-size: 2em; /* Larger heading size */
 }
 
 nav {
-    background-color: #333;
-    overflow: hidden;
+    background-color: #666; /* Darker background color for the navigation */
+    padding: 10px;
+    text-align: center;
 }
 
-ul {
-    list-style-type: none;
+nav ul {
+    list-style: none;
     margin: 0;
     padding: 0;
 }
 
-li {
-    float: left;
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1.2em;
 }
 
-a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+nav a {
     text-decoration: none;
-    font-weight: bold;
-}
-
-a:hover {
-    background-color: #ddd;
-    color: black;
+    color: #fff; /* White link color */
 }
 
 section {
     padding: 20px;
 }
 
-h2 {
-    color: #4CAF50;
-}
-
-p {
-    font-size: 16px;
-}
-
-.last-updated {
-    font-style: italic;
-    color: #777;
-}
-
 footer {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #333; /* Dark background color for the footer */
+    color: #fff; /* White text color */
+    padding: 10px;
     text-align: center;
-    padding: 1em;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
-
-.highlight {
-    color: #4CAF50;
-    font-weight: bold;
-}
-
 
